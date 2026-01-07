@@ -187,17 +187,6 @@ def my_optimizer(loss_function, start_point, learning_rate, num_iterations):
 OPTIMIZERS["My Optimizer"] = my_optimizer
 ```
 
-## 📝 Resume Description
-
-**One-liner:**
-> Built an interactive gradient descent visualizer comparing optimization algorithms (SGD, Adam, Momentum) with real-time parameter tuning and convergence analysis
-
-**Detailed bullet points:**
-- Implemented 4 classic optimization landscapes (Rosenbrock, Beale, etc.) with analytical gradients in NumPy
-- Developed 3 optimization algorithms from scratch (Vanilla SGD, Momentum, Adam) with gradient clipping
-- Created interactive 3D visualizations using Matplotlib and Streamlit, enabling real-time hyperparameter tuning
-- Demonstrated deep understanding of optimization fundamentals including learning rate effects, momentum dynamics, and adaptive methods
-
 ## 🐛 Troubleshooting
 
 **Issue**: App won't start
@@ -208,15 +197,5 @@ OPTIMIZERS["My Optimizer"] = my_optimizer
 
 **Issue**: Plots look weird
 - **Solution**: Try different starting positions or reduce learning rate
-
-**Issue**: "Module not found" error
-- **Solution**: Make sure you're in the correct directory and dependencies are installed
-
-## 📚 Further Reading
-
-- [Gradient Descent Optimization Algorithms](https://ruder.io/optimizing-gradient-descent/)
-- [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/abs/1609.04747)
-- [Why Momentum Really Works](https://distill.pub/2017/momentum/)
-- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 
 ---
